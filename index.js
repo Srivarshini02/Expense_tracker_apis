@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
-const port = process.env.PORT || 8000
+const port = process.env.PORT
 app.listen(port)
 const Expense=require('./expense')
 mongoose.connect('mongodb+srv://lsrivarshini02:srivarshini@cluster0.pf2vacu.mongodb.net/newDb?retryWrites=true&w=majority',{
